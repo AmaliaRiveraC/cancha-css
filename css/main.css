@@ -1,0 +1,75 @@
+section {
+    background:#8CB27C;
+    height: 450px;
+    left: 3%;
+    position: relative;
+    width: 1300px;
+}
+
+h1 {
+    text-align: center;
+    color: purple;
+}
+
+#circle {
+    border-radius: 50%;
+    height: 80px;
+    top: 150px;
+    left: 600px;
+    width: 80px;
+    position: absolute;
+}
+
+#first_balon {
+    float: right;
+    margin-top: 3%;
+}
+
+#second_balon {
+    left: 48%;
+    position: absolute;
+    top: 30%;
+}
+
+#third_balon {
+    right: 5%;
+    position: absolute;
+    bottom: 25%;
+}
+
+#left_goal {
+    border-left: none;
+    left: 0;
+    top: 100px;
+}
+
+#right_goal {
+    border-right: none;
+    top: 100px;
+    right: 0;
+}
+    
+#principal {
+    height: 400px;
+    left: 25px;
+    position: absolute;
+    top: 25px;
+    width: 1250px;
+}
+
+.balon {
+    background-color: white;
+    border-radius: 50%;
+    height: 6px;
+    width: 6px;
+}
+
+.goal {
+    height: 195px;
+    width: 50px;
+    position: absolute;
+}
+
+.white-border {
+    border: 1px solid white;
+}
